@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "136881256_39fddd57-ef7f-4351-9926-e59299998b19 1-2-no-bg-preview (carve.photos).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

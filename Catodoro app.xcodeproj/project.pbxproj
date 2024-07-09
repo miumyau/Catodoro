@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A43D7572C10B74F00DE4411 /* TaskTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A43D7562C10B74F00DE4411 /* TaskTableView.swift */; };
+		7A574D6B2BEB7B5D0082DA9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A574D6A2BEB7B5D0082DA9A /* AppDelegate.swift */; };
+		7A574D6D2BEB7B5D0082DA9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A574D6C2BEB7B5D0082DA9A /* SceneDelegate.swift */; };
+		7A574D742BEB7B5F0082DA9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A574D732BEB7B5F0082DA9A /* Assets.xcassets */; };
+		7A574D772BEB7B5F0082DA9A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7A574D762BEB7B5F0082DA9A /* Base */; };
+		7A574D852BEB87300082DA9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A574D842BEB87300082DA9A /* MainViewController.swift */; };
+		7A5AB0A42C3BD51500305AA6 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AB0A32C3BD51500305AA6 /* SoundManager.swift */; };
+		7A5AB0A62C3BD53400305AA6 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AB0A52C3BD53400305AA6 /* TimerManager.swift */; };
+		7A5AB0A82C3BD54300305AA6 /* AnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AB0A72C3BD54300305AA6 /* AnimationManager.swift */; };
+		7A5AB0AA2C3BEB8A00305AA6 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5AB0A92C3BEB8A00305AA6 /* CustomAlertViewController.swift */; };
+		7A6829152BFDD076009A2B00 /* cat-dance-funny.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A6829142BFDD076009A2B00 /* cat-dance-funny.gif */; };
+		7A68292F2BFE0A1B009A2B00 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A6829292BFE04D9009A2B00 /* TaskModel.xcdatamodeld */; };
+		7A6829352BFE0E05009A2B00 /* TaskModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6829332BFE0E05009A2B00 /* TaskModel+CoreDataClass.swift */; };
+		7A6829362BFE0E05009A2B00 /* TaskModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6829342BFE0E05009A2B00 /* TaskModel+CoreDataProperties.swift */; };
+		7A6D33E32C0A3699004DA481 /* BackgroundColorManager .swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D33E22C0A3699004DA481 /* BackgroundColorManager .swift */; };
+		7A6D33EB2C0F372A004DA481 /* happysound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D33EA2C0F372A004DA481 /* happysound.mp3 */; };
+		7A6D33ED2C0F4090004DA481 /* rrrrr.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D33EC2C0F408F004DA481 /* rrrrr.mp3 */; };
+		7A6D33EF2C0F409C004DA481 /* mew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7A6D33EE2C0F409C004DA481 /* mew.mp3 */; };
+		7A6D33F12C0F466A004DA481 /* Globals+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D33F02C0F466A004DA481 /* Globals+Extensions.swift */; };
+		7A6F49A22BF244F2004E7977 /* JosefinSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F49A02BF244F2004E7977 /* JosefinSlab-Bold.ttf */; };
+		7A6F49A32BF244F2004E7977 /* JosefinSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F49A12BF244F2004E7977 /* JosefinSlab-Regular.ttf */; };
+		7A6F49A52BF24A6A004E7977 /* AnonymousPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F49A42BF24A6A004E7977 /* AnonymousPro-Bold.ttf */; };
+		7A6F49A72BF24A75004E7977 /* AnonymousPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F49A62BF24A75004E7977 /* AnonymousPro-Regular.ttf */; };
+		7A6F49A82BF33B03004E7977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A574D752BEB7B5F0082DA9A /* LaunchScreen.storyboard */; };
+		7A6F49AA2BF4E65E004E7977 /* happygif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A6F49A92BF4E65E004E7977 /* happygif.gif */; };
+		7A6F49AC2BF5F66A004E7977 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F49AB2BF5F66A004E7977 /* SettingsViewController.swift */; };
+		7A6F49AE2BF5F67B004E7977 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F49AD2BF5F67B004E7977 /* StatisticsViewController.swift */; };
+		7A6F49B02BF5F68E004E7977 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6F49AF2BF5F68E004E7977 /* TasksViewController.swift */; };
+		7ABA49AA2C0A0DFB0090C4F5 /* Pods_Catodoro_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B46409E3E94FDBCB923DE7BF /* Pods_Catodoro_app.framework */; };
+		7ABA49AB2C0A0DFB0090C4F5 /* Pods_Catodoro_app.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B46409E3E94FDBCB923DE7BF /* Pods_Catodoro_app.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7ABA49AC2C0A0DFB0090C4F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7ABA49AB2C0A0DFB0090C4F5 /* Pods_Catodoro_app.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A43D7562C10B74F00DE4411 /* TaskTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableView.swift; sourceTree = "<group>"; };
+		7A574D672BEB7B5D0082DA9A /* Catodoro app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catodoro app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A574D6A2BEB7B5D0082DA9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A574D6C2BEB7B5D0082DA9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7A574D732BEB7B5F0082DA9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A574D762BEB7B5F0082DA9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A574D842BEB87300082DA9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7A5AB0A32C3BD51500305AA6 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		7A5AB0A52C3BD53400305AA6 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		7A5AB0A72C3BD54300305AA6 /* AnimationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationManager.swift; sourceTree = "<group>"; };
+		7A5AB0A92C3BEB8A00305AA6 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		7A6829142BFDD076009A2B00 /* cat-dance-funny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cat-dance-funny.gif"; sourceTree = "<group>"; };
+		7A68292A2BFE04D9009A2B00 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		7A6829332BFE0E05009A2B00 /* TaskModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TaskModel+CoreDataClass.swift"; path = "Catodoro app/Module/Tasks/Model/TaskModel+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		7A6829342BFE0E05009A2B00 /* TaskModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TaskModel+CoreDataProperties.swift"; path = "Catodoro app/Module/Tasks/Model/TaskModel+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		7A6D33E22C0A3699004DA481 /* BackgroundColorManager .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackgroundColorManager .swift"; sourceTree = "<group>"; };
+		7A6D33EA2C0F372A004DA481 /* happysound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = happysound.mp3; sourceTree = "<group>"; };
+		7A6D33EC2C0F408F004DA481 /* rrrrr.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rrrrr.mp3; sourceTree = "<group>"; };
+		7A6D33EE2C0F409C004DA481 /* mew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mew.mp3; sourceTree = "<group>"; };
+		7A6D33F02C0F466A004DA481 /* Globals+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Globals+Extensions.swift"; sourceTree = "<group>"; };
+		7A6F499D2BF240FF004E7977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6F49A02BF244F2004E7977 /* JosefinSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSlab-Bold.ttf"; sourceTree = "<group>"; };
+		7A6F49A12BF244F2004E7977 /* JosefinSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSlab-Regular.ttf"; sourceTree = "<group>"; };
+		7A6F49A42BF24A6A004E7977 /* AnonymousPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AnonymousPro-Bold.ttf"; sourceTree = "<group>"; };
+		7A6F49A62BF24A75004E7977 /* AnonymousPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AnonymousPro-Regular.ttf"; sourceTree = "<group>"; };
+		7A6F49A92BF4E65E004E7977 /* happygif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = happygif.gif; sourceTree = "<group>"; };
+		7A6F49AB2BF5F66A004E7977 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		7A6F49AD2BF5F67B004E7977 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		7A6F49AF2BF5F68E004E7977 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		9C93A0BF4C412A69AD15AF97 /* Pods-Catodoro app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catodoro app.release.xcconfig"; path = "Target Support Files/Pods-Catodoro app/Pods-Catodoro app.release.xcconfig"; sourceTree = "<group>"; };
+		B46409E3E94FDBCB923DE7BF /* Pods_Catodoro_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catodoro_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0711EFAE506DA3A50AC1F8C /* Pods-Catodoro app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catodoro app.debug.xcconfig"; path = "Target Support Files/Pods-Catodoro app/Pods-Catodoro app.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A574D642BEB7B5D0082DA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABA49AA2C0A0DFB0090C4F5 /* Pods_Catodoro_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1532F2D327172193BB69449A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0711EFAE506DA3A50AC1F8C /* Pods-Catodoro app.debug.xcconfig */,
+				9C93A0BF4C412A69AD15AF97 /* Pods-Catodoro app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		447D1C53222CC1D7546BFEB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B46409E3E94FDBCB923DE7BF /* Pods_Catodoro_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A574D5E2BEB7B5D0082DA9A = {
+			isa = PBXGroup;
+			children = (
+				7A574D692BEB7B5D0082DA9A /* Catodoro app */,
+				7A574D682BEB7B5D0082DA9A /* Products */,
+				1532F2D327172193BB69449A /* Pods */,
+				447D1C53222CC1D7546BFEB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A574D682BEB7B5D0082DA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A574D672BEB7B5D0082DA9A /* Catodoro app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A574D692BEB7B5D0082DA9A /* Catodoro app */ = {
+			isa = PBXGroup;
+			children = (
+				7A5AB0AD2C3D8BBA00305AA6 /* Screens */,
+				7A5AB0AB2C3C008C00305AA6 /* Assets */,
+				7A574D832BEB82660082DA9A /* Common */,
+				7A574D7E2BEB81AF0082DA9A /* Module */,
+				7A574D752BEB7B5F0082DA9A /* LaunchScreen.storyboard */,
+				7A6F499D2BF240FF004E7977 /* Info.plist */,
+			);
+			path = "Catodoro app";
+			sourceTree = "<group>";
+		};
+		7A574D7E2BEB81AF0082DA9A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				7A574D7F2BEB81BC0082DA9A /* Timer */,
+				7A574D822BEB81EA0082DA9A /* Settings */,
+				7A574D812BEB81E30082DA9A /* Statistics */,
+				7A574D802BEB81D90082DA9A /* Tasks */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		7A574D7F2BEB81BC0082DA9A /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				7A574D842BEB87300082DA9A /* MainViewController.swift */,
+				7A5AB0A52C3BD53400305AA6 /* TimerManager.swift */,
+				7A5AB0A72C3BD54300305AA6 /* AnimationManager.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		7A574D802BEB81D90082DA9A /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				7A5AB0AC2C3C01C600305AA6 /* Model */,
+				7A6F49AF2BF5F68E004E7977 /* TasksViewController.swift */,
+				7A43D7562C10B74F00DE4411 /* TaskTableView.swift */,
+				7A5AB0A92C3BEB8A00305AA6 /* CustomAlertViewController.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		7A574D812BEB81E30082DA9A /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				7A6F49AD2BF5F67B004E7977 /* StatisticsViewController.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		7A574D822BEB81EA0082DA9A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7A6F49AB2BF5F66A004E7977 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		7A574D832BEB82660082DA9A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7A574D6A2BEB7B5D0082DA9A /* AppDelegate.swift */,
+				7A574D6C2BEB7B5D0082DA9A /* SceneDelegate.swift */,
+				7A6D33E22C0A3699004DA481 /* BackgroundColorManager .swift */,
+				7A6D33F02C0F466A004DA481 /* Globals+Extensions.swift */,
+				7A5AB0A32C3BD51500305AA6 /* SoundManager.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7A5AB0AB2C3C008C00305AA6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				7A574D732BEB7B5F0082DA9A /* Assets.xcassets */,
+				7A6D33EC2C0F408F004DA481 /* rrrrr.mp3 */,
+				7A6D33EE2C0F409C004DA481 /* mew.mp3 */,
+				7A6F49A92BF4E65E004E7977 /* happygif.gif */,
+				7A6D33EA2C0F372A004DA481 /* happysound.mp3 */,
+				7A6829142BFDD076009A2B00 /* cat-dance-funny.gif */,
+				7A6F49A02BF244F2004E7977 /* JosefinSlab-Bold.ttf */,
+				7A6F49A12BF244F2004E7977 /* JosefinSlab-Regular.ttf */,
+				7A6F49A42BF24A6A004E7977 /* AnonymousPro-Bold.ttf */,
+				7A6F49A62BF24A75004E7977 /* AnonymousPro-Regular.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		7A5AB0AC2C3C01C600305AA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A6829332BFE0E05009A2B00 /* TaskModel+CoreDataClass.swift */,
+				7A6829342BFE0E05009A2B00 /* TaskModel+CoreDataProperties.swift */,
+				7A6829292BFE04D9009A2B00 /* TaskModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A5AB0AD2C3D8BBA00305AA6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A574D662BEB7B5D0082DA9A /* Catodoro app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A574D7B2BEB7B5F0082DA9A /* Build configuration list for PBXNativeTarget "Catodoro app" */;
+			buildPhases = (
+				A2A27AC19709189358C998A6 /* [CP] Check Pods Manifest.lock */,
+				7A574D632BEB7B5D0082DA9A /* Sources */,
+				7A574D642BEB7B5D0082DA9A /* Frameworks */,
+				7A574D652BEB7B5D0082DA9A /* Resources */,
+				DF8E63302E1AD2C41611C032 /* [CP] Embed Pods Frameworks */,
+				7ABA49AC2C0A0DFB0090C4F5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catodoro app";
+			productName = "Catodoro app";
+			productReference = 7A574D672BEB7B5D0082DA9A /* Catodoro app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A574D5F2BEB7B5D0082DA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					7A574D662BEB7B5D0082DA9A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 7A574D622BEB7B5D0082DA9A /* Build configuration list for PBXProject "Catodoro app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A574D5E2BEB7B5D0082DA9A;
+			productRefGroup = 7A574D682BEB7B5D0082DA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A574D662BEB7B5D0082DA9A /* Catodoro app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A574D652BEB7B5D0082DA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6F49AA2BF4E65E004E7977 /* happygif.gif in Resources */,
+				7A574D742BEB7B5F0082DA9A /* Assets.xcassets in Resources */,
+				7A6F49A52BF24A6A004E7977 /* AnonymousPro-Bold.ttf in Resources */,
+				7A6F49A22BF244F2004E7977 /* JosefinSlab-Bold.ttf in Resources */,
+				7A6F49A32BF244F2004E7977 /* JosefinSlab-Regular.ttf in Resources */,
+				7A6F49A82BF33B03004E7977 /* LaunchScreen.storyboard in Resources */,
+				7A6D33EF2C0F409C004DA481 /* mew.mp3 in Resources */,
+				7A574D772BEB7B5F0082DA9A /* Base in Resources */,
+				7A6D33EB2C0F372A004DA481 /* happysound.mp3 in Resources */,
+				7A6F49A72BF24A75004E7977 /* AnonymousPro-Regular.ttf in Resources */,
+				7A6D33ED2C0F4090004DA481 /* rrrrr.mp3 in Resources */,
+				7A6829152BFDD076009A2B00 /* cat-dance-funny.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2A27AC19709189358C998A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Catodoro app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8E63302E1AD2C41611C032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catodoro app/Pods-Catodoro app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Catodoro app/Pods-Catodoro app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Catodoro app/Pods-Catodoro app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A574D632BEB7B5D0082DA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A6D33E32C0A3699004DA481 /* BackgroundColorManager .swift in Sources */,
+				7A68292F2BFE0A1B009A2B00 /* TaskModel.xcdatamodeld in Sources */,
+				7A574D6B2BEB7B5D0082DA9A /* AppDelegate.swift in Sources */,
+				7A6F49B02BF5F68E004E7977 /* TasksViewController.swift in Sources */,
+				7A43D7572C10B74F00DE4411 /* TaskTableView.swift in Sources */,
+				7A5AB0AA2C3BEB8A00305AA6 /* CustomAlertViewController.swift in Sources */,
+				7A5AB0A62C3BD53400305AA6 /* TimerManager.swift in Sources */,
+				7A5AB0A42C3BD51500305AA6 /* SoundManager.swift in Sources */,
+				7A574D6D2BEB7B5D0082DA9A /* SceneDelegate.swift in Sources */,
+				7A6829352BFE0E05009A2B00 /* TaskModel+CoreDataClass.swift in Sources */,
+				7A5AB0A82C3BD54300305AA6 /* AnimationManager.swift in Sources */,
+				7A6829362BFE0E05009A2B00 /* TaskModel+CoreDataProperties.swift in Sources */,
+				7A6D33F12C0F466A004DA481 /* Globals+Extensions.swift in Sources */,
+				7A574D852BEB87300082DA9A /* MainViewController.swift in Sources */,
+				7A6F49AE2BF5F67B004E7977 /* StatisticsViewController.swift in Sources */,
+				7A6F49AC2BF5F66A004E7977 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A574D752BEB7B5F0082DA9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A574D762BEB7B5F0082DA9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A574D792BEB7B5F0082DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A574D7A2BEB7B5F0082DA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A574D7C2BEB7B5F0082DA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0711EFAE506DA3A50AC1F8C /* Pods-Catodoro app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7SNWYJKZ5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Catodoro app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "miumyau.Catodoro-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A574D7D2BEB7B5F0082DA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C93A0BF4C412A69AD15AF97 /* Pods-Catodoro app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q7SNWYJKZ5;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Catodoro app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "miumyau.Catodoro-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A574D622BEB7B5D0082DA9A /* Build configuration list for PBXProject "Catodoro app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A574D792BEB7B5F0082DA9A /* Debug */,
+				7A574D7A2BEB7B5F0082DA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A574D7B2BEB7B5F0082DA9A /* Build configuration list for PBXNativeTarget "Catodoro app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A574D7C2BEB7B5F0082DA9A /* Debug */,
+				7A574D7D2BEB7B5F0082DA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7A6829292BFE04D9009A2B00 /* TaskModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7A68292A2BFE04D9009A2B00 /* Model.xcdatamodel */,
+			);
+			currentVersion = 7A68292A2BFE04D9009A2B00 /* Model.xcdatamodel */;
+			path = TaskModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7A574D5F2BEB7B5D0082DA9A /* Project object */;
+}
